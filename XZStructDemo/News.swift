@@ -9,6 +9,7 @@
 import Foundation
 
 struct News: Codable {
+    
     let newsInfo: [NewsInfo]
     
     enum CodingKeys: String, CodingKey {

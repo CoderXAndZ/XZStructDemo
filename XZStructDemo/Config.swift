@@ -25,6 +25,7 @@ struct Config: Codable {
         case news
     }
     
+    
     // 这里要指定news嵌套的数据中的映射规则
     enum NewsCodingKeys: String, CodingKey {
         case newsInfo = "info"
