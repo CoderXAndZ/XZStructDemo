@@ -18,6 +18,7 @@
 		34A609EC25348F5700FC37E1 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A609EB25348F5700FC37E1 /* News.swift */; };
 		841FD53725354872003383E7 /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841FD53625354872003383E7 /* Price.swift */; };
 		841FD5392535504F003383E7 /* Yuutai.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841FD5382535504F003383E7 /* Yuutai.swift */; };
+		8432922725382FA400B75308 /* ClientConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8432922625382FA400B75308 /* ClientConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		34A609EB25348F5700FC37E1 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		841FD53625354872003383E7 /* Price.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
 		841FD5382535504F003383E7 /* Yuutai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yuutai.swift; sourceTree = "<group>"; };
+		8432922625382FA400B75308 /* ClientConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientConfig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				841FD53625354872003383E7 /* Price.swift */,
 				841FD5382535504F003383E7 /* Yuutai.swift */,
 				34A609E7253474D400FC37E1 /* Config.swift */,
+				8432922625382FA400B75308 /* ClientConfig.swift */,
 				34A609D9253474B200FC37E1 /* Main.storyboard */,
 				34A609DC253474B300FC37E1 /* Assets.xcassets */,
 				34A609DE253474B300FC37E1 /* LaunchScreen.storyboard */,
@@ -156,6 +159,7 @@
 			files = (
 				34A609D8253474B200FC37E1 /* ViewController.swift in Sources */,
 				841FD53725354872003383E7 /* Price.swift in Sources */,
+				8432922725382FA400B75308 /* ClientConfig.swift in Sources */,
 				34A609E8253474D400FC37E1 /* Config.swift in Sources */,
 				34A609D4253474B200FC37E1 /* AppDelegate.swift in Sources */,
 				34A609EC25348F5700FC37E1 /* News.swift in Sources */,

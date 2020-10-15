@@ -41,8 +41,19 @@ struct Yuutai: Codable {
             rimawariValue.append(rimawari)
         }
         
-        let unkeyedContainerPopular = try keyedContainer.nestedUnkeyedContainer(forKey: .popular)
+        var unkeyedContainerPopular = try keyedContainer.nestedUnkeyedContainer(forKey: .popular)
+        var priceInfo = [String]()
+        while !unkeyedContainerPopular.isAtEnd {
+            let price = try unkeyedContainerPopular.decode(String.self)
+            priceInfo.append(price)
+        }
         
+//        var unkeyedContainerTopFourPopular = try keyedContainer.nestedUnkeyedContainer(forKey: .popular)
+//        var priceInfo = [String]()
+//        while !unkeyedContainerPopular.isAtEnd {
+//            let price = try unkeyedContainerPopular.decode(String.self)
+//            priceInfo.append(price)
+//        }
         
     }
     
