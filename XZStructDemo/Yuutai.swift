@@ -42,34 +42,50 @@ struct Yuutai: Codable {
         }
         
         var unkeyedContainerPopular = try keyedContainer.nestedUnkeyedContainer(forKey: .popular)
-        var priceInfo = [String]()
+        var popularInfo = [String]()
         while !unkeyedContainerPopular.isAtEnd {
-            let price = try unkeyedContainerPopular.decode(String.self)
-            priceInfo.append(price)
+            let popular = try unkeyedContainerPopular.decode(String.self)
+            popularInfo.append(popular)
         }
         
-//        var unkeyedContainerTopFourPopular = try keyedContainer.nestedUnkeyedContainer(forKey: .popular)
-//        var priceInfo = [String]()
-//        while !unkeyedContainerPopular.isAtEnd {
-//            let price = try unkeyedContainerPopular.decode(String.self)
-//            priceInfo.append(price)
-//        }
+        var unkeyedContainerTopFourPopular = try keyedContainer.nestedUnkeyedContainer(forKey: .topFourPopular)
+        var topFourPopularInfo = [String]()
+        while !unkeyedContainerTopFourPopular.isAtEnd {
+            let topFourPopular = try unkeyedContainerTopFourPopular.decode(String.self)
+            topFourPopularInfo.append(topFourPopular)
+        }
         
+        self.init(rimawariValue: rimawariValue, topFourPopularValue: topFourPopularInfo, popularValue: popularInfo)
     }
     
     func encode(to encoder: Encoder) throws {
-        <#code#>
+        var container = encoder.container(keyedBy: CodingKeys.self)
+        var keyedContainer = container.nestedContainer(keyedBy: SearchCodingKeys.self, forKey: .search)
+        var rimawariUnkeyedContainer = keyedContainer.nestedUnkeyedContainer(forKey: .rimawari)
+        try rimawariValue.forEach { (item) in
+            try rimawariUnkeyedContainer.encode(item)
+        }
+        
+        var topFourPopularValueUnkeyedContainer = keyedContainer.nestedUnkeyedContainer(forKey: .topFourPopular)
+        try topFourPopularValue.forEach { (item) in
+            try topFourPopularValueUnkeyedContainer.encode(item)
+        }
+        
+        var popularValueUnkeyedContainer = keyedContainer.nestedUnkeyedContainer(forKey: .popular)
+        try popularValue.forEach { (item) in
+            try popularValueUnkeyedContainer.encode(item)
+        }
     }
     
-    struct Rimawari {
-        var value: [String]
-    }
-    
-    struct TopFourPopular {
-        var value: [String]
-    }
-    
-    struct Popular {
-        var value: [String]
-    }
+//    struct Rimawari {
+//        var value: [String]
+//    }
+//
+//    struct TopFourPopular {
+//        var value: [String]
+//    }
+//
+//    struct Popular {
+//        var value: [String]
+//    }
 }

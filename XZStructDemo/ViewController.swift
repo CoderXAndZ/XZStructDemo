@@ -15,7 +15,8 @@ class ViewController: UIViewController {
         
 //        configFuncs()
 //        newfuncs()
-        pricefuncs()
+//        pricefuncs()
+        yuutaiFuncs()
     }
 
     func encode<T>(of model: T) throws where T: Codable {
@@ -33,6 +34,65 @@ class ViewController: UIViewController {
 }
 
 extension ViewController {
+    // MARK: ----- yuutai的功能
+    func yuutaiFuncs() {
+        let res = """
+            {"yuutai": {
+                  "search": {
+                    "rimawari": {
+                      "value": [
+                        "5.0",
+                        "10.0",
+                        "15.0",
+                        "20.0",
+                        "25.0"
+                      ]
+                    },
+                    "topFourPopular": {
+                      "value": [
+                        "2|食料・飲料品",
+                        "3|名産・特産品",
+                        "10|旅行・航空券・乗車券",
+                        "13|日用品・電化製品・暮らし"
+                      ]
+                    },
+                    "popular": {
+                      "value": [
+                        "1|飲食券・飲食割引券",
+                        "2|食料・飲料品",
+                        "3|名産・特産品",
+                        "4|買物券（百貨店・スーパー等）",
+                        "5|買物券（対象分野限定）",
+                        "6|住宅・引越・賃貸関連",
+                        "7|金券",
+                        "8|ファッション・癒し・ビューティ",
+                        "9|宿泊・ホテル飲食",
+                        "10|旅行・航空券・乗車券",
+                        "11|趣味・娯楽・レジャー",
+                        "12|スポーツ",
+                        "13|日用品・電化製品・暮らし",
+                        "14|他サービス",
+                        "15|おもしろ優待",
+                        "16|自社製品・商品・サービス",
+                        "17|男性向け",
+                        "18|女性向け ",
+                        "19|冠婚葬祭",
+                        "20|教育・資格",
+                        "21|資産運用",
+                        "22|継続保有特典"
+                      ]
+                    }
+                  }
+                }}
+        """
+        let response = try! decode(of: res, type: Yuutai.self)
+        dump(response)
+        try! encode(of: response)
+        print("---------response.popularValue:", response.popularValue)
+        print("---------response.rimawariValue:", response.rimawariValue)
+        print("---------response.topFourPopularValue:", response.topFourPopularValue)
+    }
+    
     // MARK: ----- price的功能
     func pricefuncs() {
         let res = """
