@@ -34,13 +34,8 @@ extension API {
             var syt: String        // 信用区分
             var rpk: String        // 弁済区分
             var std: String        // 弁済日数
-            var kakuninKbn: KakuninKbn // 確認パラメータ
+            var kakuninKbn: String // 確認パラメータ
             
-            struct KakuninKbn {
-                var no1 = "no1"
-                var no2 = "no2"
-                var no3 = "no3"
-            }
         }
     }
 }
