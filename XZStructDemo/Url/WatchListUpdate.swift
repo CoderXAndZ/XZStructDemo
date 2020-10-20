@@ -8,7 +8,7 @@
 import Foundation
 
 extension API {
-    
+    // ウォッチリスト更新情報取得
     final class WatchListUpdate: ApiTelegram {
         
         var path:           String { "ohlc" }
@@ -16,8 +16,8 @@ extension API {
         var errorHandler:   API.ErrorHandler? { .telegram }
         
         struct Parameter: Encodable {
-            var a: String       // 認証キー
-            var skt: String     // 証券コード+市場区分
+            var a:   String       // 認証キー
+            var skt: String       // 証券コード+市場区分
         }
     }
 }

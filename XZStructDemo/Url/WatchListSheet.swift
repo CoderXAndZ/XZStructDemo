@@ -8,7 +8,7 @@
 import Foundation
 
 extension API {
-    
+    // シート登録リスト
     final class WatchListSheet: ApiTelegram {
         
         var path:           String { "watchListSheet.do" }

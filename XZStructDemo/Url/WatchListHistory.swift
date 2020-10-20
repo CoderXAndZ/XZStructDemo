@@ -8,7 +8,7 @@
 import Foundation
 
 extension API {
-    
+    // 履歴シート登録リスト
     final class WatchListHistory: ApiTelegram {
         
         var path:           String { "historyWatchList.do" }
@@ -17,7 +17,6 @@ extension API {
         
         struct Parameter: Encodable {
             var mga: [Mga]
-
             struct Mga: Encodable {
                 var skt: String // 証券コード+市場区分
             }
