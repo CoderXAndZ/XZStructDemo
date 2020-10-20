@@ -17,8 +17,8 @@ extension API {
         
         struct Parameter: Encodable {
             var dat: String    // 検索期間
-            var dsf: String    // 期間指定FROM
-            var dst: String    // 期間指定TO
+            var dsf: Date      // 期間指定FROM
+            var dst: Date      // 期間指定TO
             var kwd: String    // キーワード
             var ret: String    // 情報種別（種別）
             var cat: String    // 情報種別（詳細）
