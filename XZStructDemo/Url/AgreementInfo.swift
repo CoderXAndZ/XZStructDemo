@@ -14,9 +14,6 @@ extension API {
         var path:           String { "agreementInfo.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
-        
-        struct Parameter: Encodable {
-//            var N/A: String        // なし
-        }
+
     }
 }
