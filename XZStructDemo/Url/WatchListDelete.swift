@@ -8,7 +8,7 @@
 import Foundation
 
 extension API {
-    
+    // シート削除
     final class WatchListDelete: ApiTelegram {
         
         var path:           String { "deleteWatchList.do" }
@@ -16,7 +16,7 @@ extension API {
         var errorHandler:   API.ErrorHandler? { .telegram }
         
         struct Parameter: Encodable {
-            var pfk: String         // ポートフォリオキー
+            var pfk: String  // ポートフォリオキー
         }
     }
 }

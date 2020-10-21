@@ -8,7 +8,7 @@
 import Foundation
 
 extension API {
-    
+    // 日中注文
     final class StockOrder: ApiTelegram {
         
         var path:           String { "stockOrder.do" }
@@ -35,7 +35,6 @@ extension API {
             var rpk: String        // 弁済区分
             var std: String        // 弁済日数
             var kakuninKbn: String // 確認パラメータ
-            
         }
     }
 }

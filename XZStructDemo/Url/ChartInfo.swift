@@ -8,7 +8,7 @@
 import Foundation
 
 extension API {
-    
+    // チャート情報取得
     final class ChartInfo: ApiTelegram {
         
         var path:           String { "achart" }

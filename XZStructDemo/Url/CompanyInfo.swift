@@ -8,7 +8,7 @@
 import Foundation
 
 extension API {
-    
+    // 企業情報取得
     final class CompanyInfo: ApiTelegram {
         
         var path:           String { "companyInfo.do" }

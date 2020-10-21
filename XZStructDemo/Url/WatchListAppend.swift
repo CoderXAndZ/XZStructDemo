@@ -8,7 +8,7 @@
 import Foundation
 
 extension API {
-    
+    // ウォッチリスト銘柄追加
     final class WatchListAppend: ApiTelegram {
         
         var path:           String { "appendWatchListMeigara.do" }

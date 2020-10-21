@@ -8,7 +8,7 @@
 import Foundation
 
 extension API {
-    
+    // 銘柄詳細
     final class StockDetail: ApiTelegram {
         
         var path:           String { "stockDetail.do" }

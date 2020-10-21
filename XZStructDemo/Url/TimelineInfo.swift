@@ -8,7 +8,7 @@
 import Foundation
 
 extension API {
-    
+    // 時系列取得
     final class TimelineInfo: ApiTelegram {
         
         var path:           String { "yearlyHighLow.do" }

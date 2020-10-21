@@ -44,7 +44,39 @@
 		84203C6E253F1D4E00035FD5 /* ChartInfoUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84203C6D253F1D4E00035FD5 /* ChartInfoUpdate.swift */; };
 		84203C70253F1E8900035FD5 /* ChartInfoUpdateFiveMinute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84203C6F253F1E8900035FD5 /* ChartInfoUpdateFiveMinute.swift */; };
 		84203C72253F1F2B00035FD5 /* StockOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84203C71253F1F2B00035FD5 /* StockOrder.swift */; };
+		84233B92253FC03F001E1A1A /* StockHoldingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233B91253FC03F001E1A1A /* StockHoldingList.swift */; };
+		84233B94253FC165001E1A1A /* StockTategyokList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233B93253FC165001E1A1A /* StockTategyokList.swift */; };
+		84233B96253FC232001E1A1A /* StockTategyokSummrayList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233B95253FC232001E1A1A /* StockTategyokSummrayList.swift */; };
+		84233B98253FC2A3001E1A1A /* StockReturnOrderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233B97253FC2A3001E1A1A /* StockReturnOrderList.swift */; };
+		84233B9A253FC34C001E1A1A /* StockOrderReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233B99253FC34C001E1A1A /* StockOrderReturn.swift */; };
+		84233B9C253FC4E7001E1A1A /* StockOrderHistoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233B9B253FC4E7001E1A1A /* StockOrderHistoryList.swift */; };
+		84233B9E253FC594001E1A1A /* StockOrderModify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233B9D253FC594001E1A1A /* StockOrderModify.swift */; };
+		84233BA0253FC670001E1A1A /* StockOrderCancel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233B9F253FC670001E1A1A /* StockOrderCancel.swift */; };
+		84233BA2253FC6DF001E1A1A /* YakjoHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233BA1253FC6DF001E1A1A /* YakjoHistory.swift */; };
+		84233BA4253FC7F8001E1A1A /* YakjoHistorySummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233BA3253FC7F8001E1A1A /* YakjoHistorySummary.swift */; };
+		84233BA6253FC868001E1A1A /* StockSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233BA5253FC868001E1A1A /* StockSearch.swift */; };
+		84233BA8253FC8E4001E1A1A /* MainIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233BA7253FC8E4001E1A1A /* MainIndex.swift */; };
+		84233BAA253FC930001E1A1A /* MainIndexImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233BA9253FC930001E1A1A /* MainIndexImage.swift */; };
+		84233BAC253FC98A001E1A1A /* Ranking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233BAB253FC98A001E1A1A /* Ranking.swift */; };
+		84233BAE253FC9E6001E1A1A /* MessageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233BAD253FC9E6001E1A1A /* MessageList.swift */; };
+		84233BB0253FCA21001E1A1A /* MessageBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233BAF253FCA21001E1A1A /* MessageBody.swift */; };
+		84233BB2253FCA66001E1A1A /* InformationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233BB1253FCA66001E1A1A /* InformationList.swift */; };
+		84233BB4253FCAA0001E1A1A /* InformationBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233BB3253FCAA0001E1A1A /* InformationBody.swift */; };
+		84233BB6253FCAF9001E1A1A /* TradeDiaryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233BB5253FCAF9001E1A1A /* TradeDiaryList.swift */; };
+		84233BB8253FCB38001E1A1A /* TradeDiaryDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233BB7253FCB38001E1A1A /* TradeDiaryDetail.swift */; };
+		84233BBA253FCC39001E1A1A /* AccountStateInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233BB9253FCC39001E1A1A /* AccountStateInfo.swift */; };
+		84233BBC253FCC70001E1A1A /* AccountStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233BBB253FCC70001E1A1A /* AccountStatus.swift */; };
+		84233BBE253FCCE9001E1A1A /* AttentionStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233BBD253FCCE9001E1A1A /* AttentionStock.swift */; };
+		84233BC0253FCD62001E1A1A /* Logout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233BBF253FCD62001E1A1A /* Logout.swift */; };
+		84233BC2253FCDD5001E1A1A /* MarginStockSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233BC1253FCDD5001E1A1A /* MarginStockSearch.swift */; };
+		84233BC4253FCF05001E1A1A /* RandomTkYutaiImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233BC3253FCF05001E1A1A /* RandomTkYutaiImage.swift */; };
+		84233BC6253FCFD3001E1A1A /* SearchTkYutaiList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233BC5253FCFD3001E1A1A /* SearchTkYutaiList.swift */; };
+		84233BC8253FD0DC001E1A1A /* PowerAmountUserSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233BC7253FD0DC001E1A1A /* PowerAmountUserSheet.swift */; };
+		84233BCA253FD168001E1A1A /* AgreementInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233BC9253FD168001E1A1A /* AgreementInfo.swift */; };
+		84233BCC253FD1E6001E1A1A /* ShikihoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233BCB253FD1E6001E1A1A /* ShikihoInfo.swift */; };
+		84233BCE253FD259001E1A1A /* YutaiInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233BCD253FD259001E1A1A /* YutaiInfo.swift */; };
 		8432922725382FA400B75308 /* ClientConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8432922625382FA400B75308 /* ClientConfig.swift */; };
+		844B99D8253FD2D400983202 /* YutaiCountByMonthInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B99D7253FD2D400983202 /* YutaiCountByMonthInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,7 +120,39 @@
 		84203C6D253F1D4E00035FD5 /* ChartInfoUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartInfoUpdate.swift; sourceTree = "<group>"; };
 		84203C6F253F1E8900035FD5 /* ChartInfoUpdateFiveMinute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartInfoUpdateFiveMinute.swift; sourceTree = "<group>"; };
 		84203C71253F1F2B00035FD5 /* StockOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockOrder.swift; sourceTree = "<group>"; };
+		84233B91253FC03F001E1A1A /* StockHoldingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockHoldingList.swift; sourceTree = "<group>"; };
+		84233B93253FC165001E1A1A /* StockTategyokList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockTategyokList.swift; sourceTree = "<group>"; };
+		84233B95253FC232001E1A1A /* StockTategyokSummrayList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockTategyokSummrayList.swift; sourceTree = "<group>"; };
+		84233B97253FC2A3001E1A1A /* StockReturnOrderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockReturnOrderList.swift; sourceTree = "<group>"; };
+		84233B99253FC34C001E1A1A /* StockOrderReturn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockOrderReturn.swift; sourceTree = "<group>"; };
+		84233B9B253FC4E7001E1A1A /* StockOrderHistoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockOrderHistoryList.swift; sourceTree = "<group>"; };
+		84233B9D253FC594001E1A1A /* StockOrderModify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockOrderModify.swift; sourceTree = "<group>"; };
+		84233B9F253FC670001E1A1A /* StockOrderCancel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockOrderCancel.swift; sourceTree = "<group>"; };
+		84233BA1253FC6DF001E1A1A /* YakjoHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YakjoHistory.swift; sourceTree = "<group>"; };
+		84233BA3253FC7F8001E1A1A /* YakjoHistorySummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YakjoHistorySummary.swift; sourceTree = "<group>"; };
+		84233BA5253FC868001E1A1A /* StockSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockSearch.swift; sourceTree = "<group>"; };
+		84233BA7253FC8E4001E1A1A /* MainIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainIndex.swift; sourceTree = "<group>"; };
+		84233BA9253FC930001E1A1A /* MainIndexImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainIndexImage.swift; sourceTree = "<group>"; };
+		84233BAB253FC98A001E1A1A /* Ranking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ranking.swift; sourceTree = "<group>"; };
+		84233BAD253FC9E6001E1A1A /* MessageList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageList.swift; sourceTree = "<group>"; };
+		84233BAF253FCA21001E1A1A /* MessageBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBody.swift; sourceTree = "<group>"; };
+		84233BB1253FCA66001E1A1A /* InformationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationList.swift; sourceTree = "<group>"; };
+		84233BB3253FCAA0001E1A1A /* InformationBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationBody.swift; sourceTree = "<group>"; };
+		84233BB5253FCAF9001E1A1A /* TradeDiaryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeDiaryList.swift; sourceTree = "<group>"; };
+		84233BB7253FCB38001E1A1A /* TradeDiaryDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeDiaryDetail.swift; sourceTree = "<group>"; };
+		84233BB9253FCC39001E1A1A /* AccountStateInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountStateInfo.swift; sourceTree = "<group>"; };
+		84233BBB253FCC70001E1A1A /* AccountStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountStatus.swift; sourceTree = "<group>"; };
+		84233BBD253FCCE9001E1A1A /* AttentionStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttentionStock.swift; sourceTree = "<group>"; };
+		84233BBF253FCD62001E1A1A /* Logout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logout.swift; sourceTree = "<group>"; };
+		84233BC1253FCDD5001E1A1A /* MarginStockSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarginStockSearch.swift; sourceTree = "<group>"; };
+		84233BC3253FCF05001E1A1A /* RandomTkYutaiImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomTkYutaiImage.swift; sourceTree = "<group>"; };
+		84233BC5253FCFD3001E1A1A /* SearchTkYutaiList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTkYutaiList.swift; sourceTree = "<group>"; };
+		84233BC7253FD0DC001E1A1A /* PowerAmountUserSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerAmountUserSheet.swift; sourceTree = "<group>"; };
+		84233BC9253FD168001E1A1A /* AgreementInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreementInfo.swift; sourceTree = "<group>"; };
+		84233BCB253FD1E6001E1A1A /* ShikihoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShikihoInfo.swift; sourceTree = "<group>"; };
+		84233BCD253FD259001E1A1A /* YutaiInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YutaiInfo.swift; sourceTree = "<group>"; };
 		8432922625382FA400B75308 /* ClientConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientConfig.swift; sourceTree = "<group>"; };
+		844B99D7253FD2D400983202 /* YutaiCountByMonthInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YutaiCountByMonthInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +233,38 @@
 				84203C6D253F1D4E00035FD5 /* ChartInfoUpdate.swift */,
 				84203C6F253F1E8900035FD5 /* ChartInfoUpdateFiveMinute.swift */,
 				84203C71253F1F2B00035FD5 /* StockOrder.swift */,
+				84233B91253FC03F001E1A1A /* StockHoldingList.swift */,
+				84233B93253FC165001E1A1A /* StockTategyokList.swift */,
+				84233B95253FC232001E1A1A /* StockTategyokSummrayList.swift */,
+				84233B97253FC2A3001E1A1A /* StockReturnOrderList.swift */,
+				84233B99253FC34C001E1A1A /* StockOrderReturn.swift */,
+				84233B9B253FC4E7001E1A1A /* StockOrderHistoryList.swift */,
+				84233B9D253FC594001E1A1A /* StockOrderModify.swift */,
+				84233B9F253FC670001E1A1A /* StockOrderCancel.swift */,
+				84233BA1253FC6DF001E1A1A /* YakjoHistory.swift */,
+				84233BA3253FC7F8001E1A1A /* YakjoHistorySummary.swift */,
+				84233BA5253FC868001E1A1A /* StockSearch.swift */,
+				84233BA7253FC8E4001E1A1A /* MainIndex.swift */,
+				84233BA9253FC930001E1A1A /* MainIndexImage.swift */,
+				84233BAB253FC98A001E1A1A /* Ranking.swift */,
+				84233BAD253FC9E6001E1A1A /* MessageList.swift */,
+				84233BAF253FCA21001E1A1A /* MessageBody.swift */,
+				84233BB1253FCA66001E1A1A /* InformationList.swift */,
+				84233BB3253FCAA0001E1A1A /* InformationBody.swift */,
+				84233BB5253FCAF9001E1A1A /* TradeDiaryList.swift */,
+				84233BB7253FCB38001E1A1A /* TradeDiaryDetail.swift */,
+				84233BB9253FCC39001E1A1A /* AccountStateInfo.swift */,
+				84233BBB253FCC70001E1A1A /* AccountStatus.swift */,
+				84233BBD253FCCE9001E1A1A /* AttentionStock.swift */,
+				84233BBF253FCD62001E1A1A /* Logout.swift */,
+				84233BC1253FCDD5001E1A1A /* MarginStockSearch.swift */,
+				84233BC3253FCF05001E1A1A /* RandomTkYutaiImage.swift */,
+				84233BC5253FCFD3001E1A1A /* SearchTkYutaiList.swift */,
+				84233BC7253FD0DC001E1A1A /* PowerAmountUserSheet.swift */,
+				84233BC9253FD168001E1A1A /* AgreementInfo.swift */,
+				84233BCB253FD1E6001E1A1A /* ShikihoInfo.swift */,
+				84233BCD253FD259001E1A1A /* YutaiInfo.swift */,
+				844B99D7253FD2D400983202 /* YutaiCountByMonthInfo.swift */,
 			);
 			path = Url;
 			sourceTree = "<group>";
@@ -252,32 +348,64 @@
 				84203C5E253F12EA00035FD5 /* StockDetail.swift in Sources */,
 				84203C44253EF8F600035FD5 /* API.swift in Sources */,
 				84203C6A253F1B9300035FD5 /* NewsSourceBody.swift in Sources */,
+				84233BCC253FD1E6001E1A1A /* ShikihoInfo.swift in Sources */,
+				84233BC0253FCD62001E1A1A /* Logout.swift in Sources */,
+				84233BB0253FCA21001E1A1A /* MessageBody.swift in Sources */,
 				34A609D8253474B200FC37E1 /* ViewController.swift in Sources */,
+				84233B92253FC03F001E1A1A /* StockHoldingList.swift in Sources */,
+				84233BA0253FC670001E1A1A /* StockOrderCancel.swift in Sources */,
 				84203C5C253F126A00035FD5 /* BoardInfo.swift in Sources */,
 				84203C5A253F11FD00035FD5 /* TradeAttentionInfo.swift in Sources */,
 				84203C42253EF8D800035FD5 /* Login.swift in Sources */,
+				84233BB6253FCAF9001E1A1A /* TradeDiaryList.swift in Sources */,
+				84233B9C253FC4E7001E1A1A /* StockOrderHistoryList.swift in Sources */,
+				84233BA4253FC7F8001E1A1A /* YakjoHistorySummary.swift in Sources */,
 				84203C72253F1F2B00035FD5 /* StockOrder.swift in Sources */,
+				84233BC6253FCFD3001E1A1A /* SearchTkYutaiList.swift in Sources */,
+				84233B98253FC2A3001E1A1A /* StockReturnOrderList.swift in Sources */,
+				84233BBA253FCC39001E1A1A /* AccountStateInfo.swift in Sources */,
 				84203C3F253EF8B800035FD5 /* WatchListUpdate.swift in Sources */,
 				841FD53725354872003383E7 /* Price.swift in Sources */,
+				84233BB4253FCAA0001E1A1A /* InformationBody.swift in Sources */,
+				84233B96253FC232001E1A1A /* StockTategyokSummrayList.swift in Sources */,
 				84203C66253F186200035FD5 /* IndividualNewsBody.swift in Sources */,
+				84233BCE253FD259001E1A1A /* YutaiInfo.swift in Sources */,
+				84233B9A253FC34C001E1A1A /* StockOrderReturn.swift in Sources */,
 				84203C54253F08BA00035FD5 /* StockCommonInfo.swift in Sources */,
 				84203C4E253F03D200035FD5 /* WatchListUpsert.swift in Sources */,
+				84233BA2253FC6DF001E1A1A /* YakjoHistory.swift in Sources */,
+				84233B94253FC165001E1A1A /* StockTategyokList.swift in Sources */,
 				84203C62253F161100035FD5 /* CompanyInfo.swift in Sources */,
 				8432922725382FA400B75308 /* ClientConfig.swift in Sources */,
+				84233BBE253FCCE9001E1A1A /* AttentionStock.swift in Sources */,
 				84203C6E253F1D4E00035FD5 /* ChartInfoUpdate.swift in Sources */,
+				844B99D8253FD2D400983202 /* YutaiCountByMonthInfo.swift in Sources */,
 				84203C50253F055D00035FD5 /* WatchListDelete.swift in Sources */,
+				84233BB8253FCB38001E1A1A /* TradeDiaryDetail.swift in Sources */,
+				84233BCA253FD168001E1A1A /* AgreementInfo.swift in Sources */,
 				34A609E8253474D400FC37E1 /* Config.swift in Sources */,
 				84203C4A253EFBD500035FD5 /* WatchListHistory.swift in Sources */,
 				84203C4C253F034400035FD5 /* WatchListMeigara.swift in Sources */,
+				84233BC2253FCDD5001E1A1A /* MarginStockSearch.swift in Sources */,
+				84233BA6253FC868001E1A1A /* StockSearch.swift in Sources */,
+				84233BBC253FCC70001E1A1A /* AccountStatus.swift in Sources */,
+				84233BAC253FC98A001E1A1A /* Ranking.swift in Sources */,
 				84203C64253F166200035FD5 /* IndividualNewsList.swift in Sources */,
+				84233BC8253FD0DC001E1A1A /* PowerAmountUserSheet.swift in Sources */,
 				84203C46253EF91400035FD5 /* ApiTelegram.swift in Sources */,
 				84203C60253F158700035FD5 /* TimelineInfo.swift in Sources */,
 				34A609D4253474B200FC37E1 /* AppDelegate.swift in Sources */,
 				34A609EC25348F5700FC37E1 /* News.swift in Sources */,
+				84233BA8253FC8E4001E1A1A /* MainIndex.swift in Sources */,
 				84203C58253F118600035FD5 /* StockInfomation.swift in Sources */,
 				841FD5392535504F003383E7 /* Yuutai.swift in Sources */,
+				84233BB2253FCA66001E1A1A /* InformationList.swift in Sources */,
 				84203C68253F1A8D00035FD5 /* NewsSourceList.swift in Sources */,
+				84233BC4253FCF05001E1A1A /* RandomTkYutaiImage.swift in Sources */,
+				84233BAA253FC930001E1A1A /* MainIndexImage.swift in Sources */,
+				84233B9E253FC594001E1A1A /* StockOrderModify.swift in Sources */,
 				84203C6C253F1C3300035FD5 /* ChartInfo.swift in Sources */,
+				84233BAE253FC9E6001E1A1A /* MessageList.swift in Sources */,
 				34A609D6253474B200FC37E1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

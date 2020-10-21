@@ -1,5 +1,5 @@
 //
-//  StockInfomation.swift
+//  InformationBody.swift
 //  iClickKabu
 //
 //  Created by Cho on 2020/09/30.
@@ -8,16 +8,15 @@
 import Foundation
 
 extension API {
-    // 銘柄インフォメーション
-    final class StockInfomation: ApiTelegram {
+    // 全体向けお知らせ詳細取得
+    final class InformationBody: ApiTelegram {
         
-        var path:           String { "stockInformation.do" }
+        var path:           String { "informationBody.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
         
         struct Parameter: Encodable {
-            var skc: String    // 証券コード
-            var sjt: String    // 市場区分
+            var seq: String        // シーケンス番号
         }
     }
 }

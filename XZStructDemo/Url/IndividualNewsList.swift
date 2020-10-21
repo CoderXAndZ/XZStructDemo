@@ -8,7 +8,7 @@
 import Foundation
 
 extension API {
-    
+    // ニュース一覧取得（個別）
     final class IndividualNewsList: ApiTelegram {
         
         var path:           String { "individualNewsList.do" }

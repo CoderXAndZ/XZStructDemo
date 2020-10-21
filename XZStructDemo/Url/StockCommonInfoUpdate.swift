@@ -8,7 +8,7 @@
 import Foundation
 
 extension API {
-    
+    // 銘柄情報共通更新情報取得
     final class StockCommonInfoUpdate: ApiTelegram {
         
         var path:           String { "stockCommonInfo" }

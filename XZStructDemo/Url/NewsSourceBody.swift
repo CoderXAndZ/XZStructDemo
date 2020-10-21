@@ -8,7 +8,7 @@
 import Foundation
 
 extension API {
-    
+    // ニュース詳細取得（全体）
     final class NewsSourceBody: ApiTelegram {
         
         var path:           String { "newsSourceBody.do" }

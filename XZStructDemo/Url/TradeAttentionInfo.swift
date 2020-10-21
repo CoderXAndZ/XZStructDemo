@@ -8,7 +8,7 @@
 import Foundation
 
 extension API {
-    
+    // 取引注意情報
     final class TradeAttentionInfo: ApiTelegram {
         
         var path:           String { "tradeAttentionInfo.do" }
