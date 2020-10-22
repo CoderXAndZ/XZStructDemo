@@ -15,9 +15,6 @@ extension API {
         var path:           String { "iclickkabu/messageList.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
-                
-        static func excute(_ parameter: Parameter) -> Observable<API.Telegram> {
-            return observable(parameter: parameter)
-        }
+        
     }
 }

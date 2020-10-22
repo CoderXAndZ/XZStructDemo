@@ -12,7 +12,7 @@ extension API {
     // シート削除
     final class WatchListDelete: ApiTelegram {
         
-        var path:           String { "iclickkabu/deleteWatchList.do }
+        var path:           String { "iclickkabu/deleteWatchList.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
         

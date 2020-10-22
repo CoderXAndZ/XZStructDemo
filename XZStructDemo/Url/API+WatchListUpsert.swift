@@ -11,7 +11,7 @@ import RxSwift
 extension API {
     // シートウォッチリスト登録
     final class WatchListUpsert: ApiTelegram {
-
+        
         var path:           String { "iclickkabu/upsertWatchList.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
