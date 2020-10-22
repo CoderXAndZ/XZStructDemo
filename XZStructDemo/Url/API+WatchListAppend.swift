@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import RxSwift
 
 extension API {
     // ウォッチリスト銘柄追加
@@ -19,6 +20,10 @@ extension API {
             var pfk: String    // ポートフォリオキー
             var skc: String    // 証券コード
             var sjt: String    // 市場区分
+        }
+        
+        static func excute(_ parameter: Parameter) -> Observable<API.Telegram> {
+            return observable(parameter: parameter)
         }
     }
 }

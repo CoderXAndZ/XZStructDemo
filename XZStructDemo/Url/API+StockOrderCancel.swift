@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import RxSwift
 
 extension API {
     // 注文取消
@@ -18,6 +19,10 @@ extension API {
         struct Parameter: Encodable {
             var cmk: String        // 注文番号
             var pic: String        // 取引暗証番号
+        }
+        
+        static func excute(_ parameter: Parameter) -> Observable<API.Telegram> {
+            return observable(parameter: parameter)
         }
     }
 }

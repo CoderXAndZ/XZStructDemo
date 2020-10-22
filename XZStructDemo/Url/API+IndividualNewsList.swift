@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import RxSwift
 
 extension API {
     // ニュース一覧取得（個別）
@@ -27,6 +28,10 @@ extension API {
             var dot: String    // 表示順
             var pge: String    // ページ番号
             var hid: String    // ヘッドラインID
+        }
+        
+        static func excute(_ parameter: Parameter) -> Observable<API.Telegram> {
+            return observable(parameter: parameter)
         }
     }
 }

@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import RxSwift
 
 extension API {
     // 建玉指定（返済・現渡・現引）注文
@@ -32,6 +33,10 @@ extension API {
             var dad: String        // 有効期間日付
             var pic: String        // 取引暗証番号
             var kakuninKbn: String // 確認パラメータ
+        }
+        
+        static func excute(_ parameter: Parameter) -> Observable<API.Telegram> {
+            return observable(parameter: parameter)
         }
     }
 }

@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import RxSwift
 
 extension API {
     // トレード日記詳細取得
@@ -17,6 +18,10 @@ extension API {
         
         struct Parameter: Encodable {
             var tdt: String        // 取引日
+        }
+        
+        static func excute(_ parameter: Parameter) -> Observable<API.Telegram> {
+            return observable(parameter: parameter)
         }
     }
 }

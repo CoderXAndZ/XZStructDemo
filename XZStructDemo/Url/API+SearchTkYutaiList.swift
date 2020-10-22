@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import RxSwift
 
 extension API {
     // 株主優待 情報取得（検索用）
@@ -26,6 +27,10 @@ extension API {
             var dot: String            // 表示順
             var adt: String            // 昇順・降順
             var pgn: String            // ページ
+        }
+        
+        static func excute(_ parameter: Parameter) -> Observable<API.Telegram> {
+            return observable(parameter: parameter)
         }
     }
 }

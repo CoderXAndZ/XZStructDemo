@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import RxSwift
 
 extension API {
     // チャート更新情報取得 (5分足)
@@ -21,6 +22,10 @@ extension API {
             var fmt: String      // チャート形式
             var t: String        // 更新時刻
             var comp: String     // 比較銘柄コード
+        }
+        
+        static func excute(_ parameter: Parameter) -> Observable<API.Telegram> {
+            return observable(parameter: parameter)
         }
     }
 }

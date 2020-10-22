@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import RxSwift
 
 extension API {
     // 銘柄情報共通
@@ -18,6 +19,10 @@ extension API {
         struct Parameter: Encodable {
             var skc: String    // 証券コード
             var sjt: String    // 市場コード
+        }
+        
+        static func excute(_ parameter: Parameter) -> Observable<API.Telegram> {
+            return observable(parameter: parameter)
         }
     }
 }

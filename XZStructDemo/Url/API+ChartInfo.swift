@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import RxSwift
 
 extension API {
     // チャート情報取得
@@ -20,6 +21,10 @@ extension API {
             var skt: String      // 証券コード+市場区分
             var chart: String    // チャート種別
             var comp: String     // 比較銘柄コード
+        }
+        
+        static func excute(_ parameter: Parameter) -> Observable<API.Telegram> {
+            return observable(parameter: parameter)
         }
     }
 }

@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import RxSwift
 
 extension API {
     // 株主優待 ランダム取得
@@ -17,6 +18,10 @@ extension API {
         
         struct Parameter: Encodable {
             var cnt: String        // 取得件数
+        }
+        
+        static func excute(_ parameter: Parameter) -> Observable<API.Telegram> {
+            return observable(parameter: parameter)
         }
     }
 }

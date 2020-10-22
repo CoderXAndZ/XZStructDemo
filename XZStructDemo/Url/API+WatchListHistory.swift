@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import RxSwift
 
 extension API {
     // 履歴シート登録リスト
@@ -20,6 +21,10 @@ extension API {
             struct Mga: Encodable {
                 var skt: String // 証券コード+市場区分
             }
+        }
+        
+        static func excute(_ parameter: Parameter) -> Observable<API.Telegram> {
+            return observable(parameter: parameter)
         }
     }
 }

@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import RxSwift
 
 extension API {
     // 保有株一覧
@@ -21,6 +22,10 @@ extension API {
             var adt: String        // 昇順／降順
             var pgn: String        // ページ番号
             var kzt: String        // 口座区分
+        }
+        
+        static func excute(_ parameter: Parameter) -> Observable<API.Telegram> {
+            return observable(parameter: parameter)
         }
     }
 }

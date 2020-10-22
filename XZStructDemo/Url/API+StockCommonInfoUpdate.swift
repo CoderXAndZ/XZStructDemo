@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import RxSwift
 
 extension API {
     // 銘柄情報共通更新情報取得
@@ -19,6 +20,10 @@ extension API {
             var a: String      // 認証キー
             var skc: String    // 証券コード
             var sjt: String    // 市場コード
+        }
+        
+        static func excute(_ parameter: Parameter) -> Observable<API.Telegram> {
+            return observable(parameter: parameter)
         }
     }
 }

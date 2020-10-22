@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import RxSwift
 
 extension API {
     // 口座状況情報取得
@@ -14,5 +15,9 @@ extension API {
         var path:           String { "iclickkabu/powerAmount.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
+        
+        static func excute(_ parameter: Parameter) -> Observable<API.Telegram> {
+            return observable(parameter: parameter)
+        }
     }
 }

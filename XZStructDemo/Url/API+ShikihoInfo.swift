@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import RxSwift
 
 extension API {
     // 四季報取得
@@ -17,6 +18,10 @@ extension API {
         
         struct Parameter: Encodable {
             var skc: String        // 証券コード
+        }
+        
+        static func excute(_ parameter: Parameter) -> Observable<API.Telegram> {
+            return observable(parameter: parameter)
         }
     }
 }

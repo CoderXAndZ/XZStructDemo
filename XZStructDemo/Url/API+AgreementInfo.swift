@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import RxSwift
 
 extension API {
     // ご確認事項確認
@@ -15,5 +16,9 @@ extension API {
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
 
+    }
+    
+    static func excute(_ parameter: Parameter) -> Observable<API.Telegram> {
+        return observable(parameter: parameter)
     }
 }

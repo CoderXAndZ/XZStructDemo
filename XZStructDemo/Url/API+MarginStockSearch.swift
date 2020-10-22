@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import RxSwift
 
 extension API {
     // 一般信用売銘柄検索
@@ -25,6 +26,10 @@ extension API {
             var dot: String        // 表示順
             var adt: String        // 昇順／降順
             var pgn: String        // ページ番号
+        }
+        
+        static func excute(_ parameter: Parameter) -> Observable<API.Telegram> {
+            return observable(parameter: parameter)
         }
     }
 }

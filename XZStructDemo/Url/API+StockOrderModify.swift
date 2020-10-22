@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import RxSwift
 
 extension API {
     // 注文変更
@@ -22,6 +23,10 @@ extension API {
             var nyf: String        // 成行
             var pic: String        // 取引暗証番号
             var kakuninKbn: String // 確認パラメータ
+        }
+        
+        static func excute(_ parameter: Parameter) -> Observable<API.Telegram> {
+            return observable(parameter: parameter)
         }
     }
 }

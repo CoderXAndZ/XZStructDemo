@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import RxSwift
 
 extension API {
     // 主要指標（画像取得）
@@ -17,6 +18,10 @@ extension API {
         
         struct Parameter: Encodable {
             var msk: String        // マーケットサマリーキー
+        }
+        
+        static func excute(_ parameter: Parameter) -> Observable<API.Telegram> {
+            return observable(parameter: parameter)
         }
     }
 }

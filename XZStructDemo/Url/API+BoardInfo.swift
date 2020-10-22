@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import RxSwift
 
 extension API {
     // 板情報更新情報取得
@@ -18,6 +19,10 @@ extension API {
         struct Parameter: Encodable {
             var a:   String      // 認証キー
             var skt: String      // 証券コード+市場区分
+        }
+        
+        static func excute(_ parameter: Parameter) -> Observable<API.Telegram> {
+            return observable(parameter: parameter)
         }
     }
 }

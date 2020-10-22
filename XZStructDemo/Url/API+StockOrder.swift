@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import RxSwift
 
 extension API {
     // 日中注文
@@ -35,6 +36,10 @@ extension API {
             var rpk: String        // 弁済区分
             var std: String        // 弁済日数
             var kakuninKbn: String // 確認パラメータ
+        }
+        
+        static func excute(_ parameter: Parameter) -> Observable<API.Telegram> {
+            return observable(parameter: parameter)
         }
     }
 }

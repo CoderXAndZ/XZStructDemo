@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import RxSwift
 
 extension API {
     // 建玉返済注文一覧取得
@@ -21,6 +22,10 @@ extension API {
             var sjt: String        // 市場コード
             var syt: String        // 期限 信用区分
             var kzt: String        // 口座区分
+        }
+        
+        static func excute(_ parameter: Parameter) -> Observable<API.Telegram> {
+            return observable(parameter: parameter)
         }
     }
 }

@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import RxSwift
 
 extension API {
     // シートウォッチリスト登録
@@ -28,6 +29,10 @@ extension API {
                 var uwd: String             // 受渡日
                 var tht: String             // 取引区分
             }
+        }
+        
+        static func excute(_ parameter: Parameter) -> Observable<API.Telegram> {
+            return observable(parameter: parameter)
         }
     }
 }
