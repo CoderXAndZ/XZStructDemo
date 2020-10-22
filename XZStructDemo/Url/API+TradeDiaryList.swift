@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import RxSwift
 
 extension API {
     // トレード日記一覧取得

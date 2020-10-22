@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import RxSwift
 
 extension API {
     // ご確認事項確認

@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import RxSwift
 
 extension API {
     // シート登録リスト

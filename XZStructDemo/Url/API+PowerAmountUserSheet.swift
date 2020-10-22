@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import RxSwift
 
 extension API {
     // 余力推移取得
