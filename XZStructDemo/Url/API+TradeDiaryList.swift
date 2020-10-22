@@ -11,7 +11,7 @@ extension API {
     // トレード日記一覧取得
     final class TradeDiaryList: ApiTelegram {
         
-        var path:           String { "imageServiceTop.do" }
+        var path:           String { "iclickkabu/imageServiceTop.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
         

@@ -11,7 +11,7 @@ extension API {
     // ご確認事項確認
     final class AgreementInfo: ApiTelegram {
         
-        var path:           String { "agreementInfo.do" }
+        var path:           String { "iclickkabu/agreementInfo.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
 

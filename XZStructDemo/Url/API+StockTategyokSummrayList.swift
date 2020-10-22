@@ -11,7 +11,7 @@ extension API {
     // 建玉一覧(サマリー)
     final class StockTategyokSummrayList: ApiTelegram {
         
-        var path:           String { "stockTatePositionSummaryList.do" }
+        var path:           String { "iclickkabu/stockTatePositionSummaryList.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
         

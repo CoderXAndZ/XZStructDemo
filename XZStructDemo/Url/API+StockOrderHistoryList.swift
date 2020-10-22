@@ -11,7 +11,7 @@ extension API {
     // 注文履歴
     final class StockOrderHistoryList: ApiTelegram {
         
-        var path:           String { "stockOrderHistoryList.do" }
+        var path:           String { "iclickkabu/stockOrderHistoryList.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
         

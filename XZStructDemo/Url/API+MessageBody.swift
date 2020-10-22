@@ -11,7 +11,7 @@ extension API {
     // 個人向けお知らせ詳細取得
     final class MessageBody: ApiTelegram {
         
-        var path:           String { "messageBody.do" }
+        var path:           String { "iclickkabu/messageBody.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
         

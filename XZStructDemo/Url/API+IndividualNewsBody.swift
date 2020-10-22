@@ -11,7 +11,7 @@ extension API {
     // ニュース詳細取得（個別）
     final class IndividualNewsBody: ApiTelegram {
         
-        var path:           String { "individualNewsBody.do" }
+        var path:           String { "iclickkabu/individualNewsBody.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
         

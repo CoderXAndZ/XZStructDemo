@@ -11,7 +11,7 @@ extension API {
     // 銘柄検索
     final class StockSearch: ApiTelegram {
         
-        var path:           String { "stockSearch.do" }
+        var path:           String { "iclickkabu/stockSearch.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
         

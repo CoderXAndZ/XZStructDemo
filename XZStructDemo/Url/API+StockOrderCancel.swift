@@ -11,7 +11,7 @@ extension API {
     // 注文取消
     final class StockOrderCancel: ApiTelegram {
         
-        var path:           String { "cancelStockOrder.do" }
+        var path:           String { "iclickkabu/cancelStockOrder.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
         

@@ -11,7 +11,7 @@ extension API {
     // 株主優待　権利月別銘柄件数
     final class YutaiCountByMonthInfo: ApiTelegram {
         
-        var path:           String { "getTkYutaiCountByMonth.do" }
+        var path:           String { "iclickkabu/getTkYutaiCountByMonth.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
     }

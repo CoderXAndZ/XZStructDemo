@@ -11,7 +11,7 @@ extension API {
     // 時系列取得
     final class TimelineInfo: ApiTelegram {
         
-        var path:           String { "yearlyHighLow.do" }
+        var path:           String { "iclickkabu/yearlyHighLow.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
         

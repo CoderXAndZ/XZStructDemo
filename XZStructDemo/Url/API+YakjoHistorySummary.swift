@@ -11,7 +11,7 @@ extension API {
     // 約定履歴(銘柄名でまとめ)
     final class YakjoHistorySummary: ApiTelegram {
         
-        var path:           String { "stockExecutionHistorySummaryList.do" }
+        var path:           String { "iclickkabu/stockExecutionHistorySummaryList.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
         

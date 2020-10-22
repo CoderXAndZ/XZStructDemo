@@ -11,7 +11,7 @@ extension API {
     // 個人向けお知らせ一覧情報取得
     final class MessageList: ApiTelegram {
         
-        var path:           String { "messageList.do" }
+        var path:           String { "iclickkabu/messageList.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
         

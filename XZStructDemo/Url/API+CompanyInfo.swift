@@ -11,7 +11,7 @@ extension API {
     // 企業情報取得
     final class CompanyInfo: ApiTelegram {
         
-        var path:           String { "companyInfo.do" }
+        var path:           String { "iclickkabu/companyInfo.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
         

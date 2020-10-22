@@ -11,7 +11,7 @@ extension API {
     // ログアウト
     final class Logout: ApiTelegram {
         
-        var path:           String { "logout" }
+        var path:           String { "iclickkabu/logout" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
         

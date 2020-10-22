@@ -11,7 +11,7 @@ extension API {
     // ウォッチリスト更新情報取得
     final class WatchListUpdate: ApiTelegram {
         
-        var path:           String { "ohlc" }
+        var path:           String { "od/iclickkabu/m/ohlc" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
         

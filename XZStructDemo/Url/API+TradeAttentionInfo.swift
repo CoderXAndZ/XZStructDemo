@@ -11,7 +11,7 @@ extension API {
     // 取引注意情報
     final class TradeAttentionInfo: ApiTelegram {
         
-        var path:           String { "tradeAttentionInfo.do" }
+        var path:           String { "iclickkabu/tradeAttentionInfo.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
         

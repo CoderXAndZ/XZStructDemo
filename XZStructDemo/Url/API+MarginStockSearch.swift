@@ -11,7 +11,7 @@ extension API {
     // 一般信用売銘柄検索
     final class MarginStockSearch: ApiTelegram {
         
-        var path:           String { "ippanShinyoSearch.do" }
+        var path:           String { "iclickkabu/ippanShinyoSearch.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
         

@@ -10,8 +10,8 @@ import Foundation
 extension API {
     // シートウォッチリスト登録
     final class WatchListUpsert: ApiTelegram {
-        
-        var path:           String { "upsertWatchList.do" }
+
+        var path:           String { "iclickkabu/upsertWatchList.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
         

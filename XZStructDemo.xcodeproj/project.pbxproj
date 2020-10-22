@@ -66,7 +66,6 @@
 		84233BB8253FCB38001E1A1A /* API+TradeDiaryDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233BB7253FCB38001E1A1A /* API+TradeDiaryDetail.swift */; };
 		84233BBA253FCC39001E1A1A /* API+AccountStateInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233BB9253FCC39001E1A1A /* API+AccountStateInfo.swift */; };
 		84233BBC253FCC70001E1A1A /* API+AccountStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233BBB253FCC70001E1A1A /* API+AccountStatus.swift */; };
-		84233BBE253FCCE9001E1A1A /* API+AttentionStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233BBD253FCCE9001E1A1A /* API+AttentionStock.swift */; };
 		84233BC0253FCD62001E1A1A /* API+Logout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233BBF253FCD62001E1A1A /* API+Logout.swift */; };
 		84233BC2253FCDD5001E1A1A /* API+MarginStockSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233BC1253FCDD5001E1A1A /* API+MarginStockSearch.swift */; };
 		84233BC4253FCF05001E1A1A /* API+RandomTkYutaiImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84233BC3253FCF05001E1A1A /* API+RandomTkYutaiImage.swift */; };
@@ -142,7 +141,6 @@
 		84233BB7253FCB38001E1A1A /* API+TradeDiaryDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+TradeDiaryDetail.swift"; sourceTree = "<group>"; };
 		84233BB9253FCC39001E1A1A /* API+AccountStateInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+AccountStateInfo.swift"; sourceTree = "<group>"; };
 		84233BBB253FCC70001E1A1A /* API+AccountStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+AccountStatus.swift"; sourceTree = "<group>"; };
-		84233BBD253FCCE9001E1A1A /* API+AttentionStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+AttentionStock.swift"; sourceTree = "<group>"; };
 		84233BBF253FCD62001E1A1A /* API+Logout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+Logout.swift"; sourceTree = "<group>"; };
 		84233BC1253FCDD5001E1A1A /* API+MarginStockSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+MarginStockSearch.swift"; sourceTree = "<group>"; };
 		84233BC3253FCF05001E1A1A /* API+RandomTkYutaiImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+RandomTkYutaiImage.swift"; sourceTree = "<group>"; };
@@ -255,7 +253,6 @@
 				84233BB7253FCB38001E1A1A /* API+TradeDiaryDetail.swift */,
 				84233BB9253FCC39001E1A1A /* API+AccountStateInfo.swift */,
 				84233BBB253FCC70001E1A1A /* API+AccountStatus.swift */,
-				84233BBD253FCCE9001E1A1A /* API+AttentionStock.swift */,
 				84233BBF253FCD62001E1A1A /* API+Logout.swift */,
 				84233BC1253FCDD5001E1A1A /* API+MarginStockSearch.swift */,
 				84233BC3253FCF05001E1A1A /* API+RandomTkYutaiImage.swift */,
@@ -377,7 +374,6 @@
 				84233B94253FC165001E1A1A /* API+StockTategyokList.swift in Sources */,
 				84203C62253F161100035FD5 /* API+CompanyInfo.swift in Sources */,
 				8432922725382FA400B75308 /* ClientConfig.swift in Sources */,
-				84233BBE253FCCE9001E1A1A /* API+AttentionStock.swift in Sources */,
 				84203C6E253F1D4E00035FD5 /* API+ChartInfoUpdate.swift in Sources */,
 				844B99D8253FD2D400983202 /* API+YutaiCountByMonthInfo.swift in Sources */,
 				84203C50253F055D00035FD5 /* API+WatchListDelete.swift in Sources */,

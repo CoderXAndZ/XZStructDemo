@@ -11,7 +11,7 @@ extension API {
     // 保有株一覧
     final class StockHoldingList: ApiTelegram {
         
-        var path:           String { "stockGenPositionList.do" }
+        var path:           String { "iclickkabu/stockGenPositionList.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
         

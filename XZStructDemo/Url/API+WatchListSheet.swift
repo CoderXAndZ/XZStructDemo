@@ -11,7 +11,7 @@ extension API {
     // シート登録リスト
     final class WatchListSheet: ApiTelegram {
         
-        var path:           String { "watchListSheet.do" }
+        var path:           String { "iclickkabu/watchListSheet.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
     }

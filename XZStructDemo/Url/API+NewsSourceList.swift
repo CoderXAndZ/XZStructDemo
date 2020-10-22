@@ -11,7 +11,7 @@ extension API {
     // ニュース一覧取得（全体）
     final class NewsSourceList: ApiTelegram {
         
-        var path:           String { "newsSourceList.do" }
+        var path:           String { "iclickkabu/newsSourceList.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
         

@@ -11,7 +11,7 @@ extension API {
     // 履歴シート登録リスト
     final class WatchListHistory: ApiTelegram {
         
-        var path:           String { "historyWatchList.do" }
+        var path:           String { "iclickkabu/historyWatchList.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
         

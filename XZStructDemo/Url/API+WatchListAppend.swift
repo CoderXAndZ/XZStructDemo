@@ -11,7 +11,7 @@ extension API {
     // ウォッチリスト銘柄追加
     final class WatchListAppend: ApiTelegram {
         
-        var path:           String { "appendWatchListMeigara.do" }
+        var path:           String { "iclickkabu/appendWatchListMeigara.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
         

@@ -11,7 +11,7 @@ extension API {
     // 日中注文
     final class StockOrder: ApiTelegram {
         
-        var path:           String { "stockOrder.do" }
+        var path:           String { "iclickkabu/stockOrder.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
         

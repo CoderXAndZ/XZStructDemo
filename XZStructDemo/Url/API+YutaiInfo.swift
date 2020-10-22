@@ -11,7 +11,7 @@ extension API {
     // 株主優待 情報取得
     final class YutaiInfo: ApiTelegram {
         
-        var path:           String { "kabunushiYutaiInfo.do" }
+        var path:           String { "iclickkabu/kabunushiYutaiInfo.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
         

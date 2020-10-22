@@ -11,7 +11,7 @@ extension API {
     // チャート更新情報取得
     final class ChartInfoUpdate: ApiTelegram {
         
-        var path:           String { "uchart" }
+        var path:           String { "od/iclickkabu/c/uchart" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
         

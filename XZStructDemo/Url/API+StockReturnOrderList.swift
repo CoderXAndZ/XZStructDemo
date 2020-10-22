@@ -11,7 +11,7 @@ extension API {
     // 建玉返済注文一覧取得
     final class StockReturnOrderList: ApiTelegram {
         
-        var path:           String { "returnStockOrderPositionList.do" }
+        var path:           String { "iclickkabu/returnStockOrderPositionList.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
         

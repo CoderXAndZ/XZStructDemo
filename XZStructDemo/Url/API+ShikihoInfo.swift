@@ -11,7 +11,7 @@ extension API {
     // 四季報取得
     final class ShikihoInfo: ApiTelegram {
         
-        var path:           String { "shikihoInfo.do" }
+        var path:           String { "iclickkabu/shikihoInfo.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
         

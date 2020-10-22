@@ -11,7 +11,7 @@ extension API {
     // 板情報更新情報取得
     final class BoardInfo: ApiTelegram {
         
-        var path:           String { "ita" }
+        var path:           String { "od/iclickkabu/m/ita" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
         

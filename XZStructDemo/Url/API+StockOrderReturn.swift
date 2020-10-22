@@ -11,7 +11,7 @@ extension API {
     // 建玉指定（返済・現渡・現引）注文
     final class StockOrderReturn: ApiTelegram {
         
-        var path:           String { "returnStockOrder.do" }
+        var path:           String { "iclickkabu/returnStockOrder.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
         

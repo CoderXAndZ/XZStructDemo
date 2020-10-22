@@ -11,7 +11,7 @@ extension API {
     // ランキング情報取得
     final class Ranking: ApiTelegram {
         
-        var path:           String { "ranking" }
+        var path:           String { "od/iclickkabu/ranking" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
         

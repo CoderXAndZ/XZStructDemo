@@ -11,7 +11,7 @@ extension API {
     // チャート更新情報取得 (5分足)
     final class ChartInfoUpdateFiveMinute: ApiTelegram {
         
-        var path:           String { "mchart" }
+        var path:           String { "od/iclickkabu/c/mchart" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
         

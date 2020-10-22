@@ -11,7 +11,7 @@ extension API {
     // 株主優待 ランダム取得
     final class RandomTkYutaiImage: ApiTelegram {
         
-        var path:           String { "randomTkYutaiImage.do" }
+        var path:           String { "iclickkabu/randomTkYutaiImage.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
         

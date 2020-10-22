@@ -11,7 +11,7 @@ extension API {
     // 口座状態
     final class AccountStatus: ApiTelegram {
         
-        var path:           String { "AccountStatus.do" }
+        var path:           String { "iclickkabu/AccountStatus.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
         

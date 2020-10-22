@@ -11,7 +11,7 @@ extension API {
     // 株主優待 情報取得（検索用）
     final class SearchTkYutaiList: ApiTelegram {
         
-        var path:           String { "searchTkYutaiList.do" }
+        var path:           String { "iclickkabu/searchTkYutaiList.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
         

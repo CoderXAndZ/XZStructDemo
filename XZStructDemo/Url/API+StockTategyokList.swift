@@ -11,7 +11,7 @@ extension API {
     // 建玉一覧(建玉毎)
     final class StockTategyokList: ApiTelegram {
         
-        var path:           String { "stockTatePositionList.do" }
+        var path:           String { "iclickkabu/stockTatePositionList.do" }
         var method:         Method { .post }
         var errorHandler:   API.ErrorHandler? { .telegram }
         
